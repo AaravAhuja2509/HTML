@@ -1,0 +1,30 @@
+/*gloabal selector*/
+*{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3{
+    color:aquamarine;
+}
+
+h4{
+    color:blueviolet;
+}
+
+.myclass{
+
+    color:brown
+}
+
+#myid{
+
+    color:pink
+}
+
+/*group selector*/
+
+p,h5{
+    color:silver
+
+}
