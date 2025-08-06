@@ -56,3 +56,13 @@ p:first-letter{
     font-size:150%;
     color:grey;
 }
+
+input[type="text"]{
+
+    border-color:green;
+}
+
+input[type="password"]{
+
+    border-color:yellow;
+}
