@@ -1,0 +1,58 @@
+*{
+    font-size:50px;
+    text-transfrom:uppercase;
+
+}
+
+body{
+    font-family:'Ariel', sans-serif;
+    background-color: red;
+    color:white;
+
+}
+
+h1{
+    color:cyan;
+}
+
+a{
+    color:pink;
+    text-decoration:underline;
+}
+
+a:hover{
+    color:yellow
+}
+
+ul>li{
+    font-weight:bold;
+
+}
+h1+p{
+    background-color:orange;
+    padding:25px;
+    border-radius:10px;
+}
+ul li:hover{
+    color:green;
+}
+ul li:nth-child(3){
+    color:maroon;
+}
+
+p:not(:first-of-type){
+    text-decoration:overline;
+}
+
+ul li:before{
+    content: "🚀 ";
+}
+
+a:after{
+    content:" 🌌";
+}
+
+p:first-letter{
+    font-size:150%;
+    color:grey;
+}
